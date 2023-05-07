@@ -1,0 +1,28 @@
+.tools-header-section {
+    position: fixed;
+    left: 50%;
+    top: 25px;
+    transform: translate(-50%, 0);
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+    .tool-icon-container {
+        color: rgba($color: #000, $alpha: .35);
+        padding: 8px;
+        cursor: pointer;
+        &:hover {
+            color: #f88181;
+        }
+    }
+    
+    .selected {
+        color: #f88181;
+    }
+
+    .tooltip-tool-icon {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}
